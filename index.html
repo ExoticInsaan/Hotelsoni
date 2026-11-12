@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hotel Soni, Rajoli | Rooms, restaurant and sweets</title>
+<meta name="description" content="Comfortable rooms, a family restaurant and a fresh sweets counter at Hotel Soni, Rajoli, Rajasthan.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gloock&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="hdr">
+  <a class="brand" href="#top" aria-label="Hotel Soni home">
+    <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="none" stroke="#e3283e" stroke-width="1.5"/><g transform="translate(20 20)" fill="#e3283e" fill-opacity=".22" stroke="#f5efe3" stroke-width="1.2"><ellipse cx="0" cy="-8" rx="3.6" ry="7" transform="rotate(0)"/><ellipse cx="0" cy="-8" rx="3.6" ry="7" transform="rotate(45)"/><ellipse cx="0" cy="-8" rx="3.6" ry="7" transform="rotate(90)"/><ellipse cx="0" cy="-8" rx="3.6" ry="7" transform="rotate(135)"/><ellipse cx="0" cy="-8" rx="3.6" ry="7" transform="rotate(180)"/><ellipse cx="0" cy="-8" rx="3.6" ry="7" transform="rotate(225)"/><ellipse cx="0" cy="-8" rx="3.6" ry="7" transform="rotate(270)"/><ellipse cx="0" cy="-8" rx="3.6" ry="7" transform="rotate(315)"/></g><circle cx="20" cy="20" r="2.6" fill="#e3283e"/></svg>
+    Hotel Soni
+  </a>
+  <nav class="nav" aria-label="Main">
+    <a href="#rooms">Rooms</a><a href="#dining">Restaurant</a><a href="#sweets">Sweets</a><a href="#gallery">Gallery</a><a href="#location">Find us</a>
+  </nav>
+  <a class="btn btn-red" href="tel:+910000000000">Call now</a>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <img class="hero-img" src="assets/hero-night.webp" width="1080" height="680" alt="Hotel Soni at night, its red sign glowing above a lit jaali-pattern facade">
+    <div class="hero-copy">
+      <h1>Stay, dine and take sweets home, all under one roof.</h1>
+      <p class="lede">AC and non-AC rooms, a family restaurant and a fresh sweets counter in Rajoli, Rajasthan.</p>
+      <div class="hero-cta">
+        <a class="btn btn-red" href="#rooms">See rooms and rates</a>
+        <a class="btn btn-ghost" href="#location">Get directions</a>
+      </div>
+    </div>
+  </section>
+
+  <form class="book" id="book" aria-label="Check room availability">
+    <label>Check-in<input type="date" name="in" required></label>
+    <label>Check-out<input type="date" name="out" required></label>
+    <label>Guests
+      <select name="guests"><option>1 guest</option><option selected>2 guests</option><option>3 guests</option><option>4 guests</option></select>
+    </label>
+    <button class="btn btn-red" type="submit">Check on WhatsApp</button>
+  </form>
+
+  <div class="jaali" aria-hidden="true"></div>
+
+  <section class="rooms" id="rooms">
+    <figure class="rooms-photo">
+      <img src="assets/front-day.webp" width="1080" height="672" loading="lazy" alt="Hotel Soni by day, with its glass front and white jaali panel">
+      <figcaption>Hotel Soni by day</figcaption>
+    </figure>
+    <div class="rooms-list">
+      <h2>Rooms and rates</h2>
+      <p class="rooms-sub">Rates are per room, per night. Pick a room and we will confirm it on WhatsApp.</p>
+
+      <article class="room">
+        <div>
+          <h3>Standard non-AC</h3>
+          <p>A simple, clean room with a double bed, a fan and an attached bathroom.</p>
+          <ul class="tags"><li>Sleeps 2</li><li>Double bed</li><li>Fan</li><li>Hot water</li></ul>
+        </div>
+        <div class="room-price">
+          <p class="price"><span>₹</span>899</p>
+          <p class="per">per night</p>
+          <a class="btn btn-dark" href="#book" data-room="Standard non-AC">Book this room</a>
+        </div>
+      </article>
+
+      <article class="room">
+        <div>
+          <h3>Deluxe AC <span class="flag">Guest favourite</span></h3>
+          <p>An air-conditioned room with a TV and a work desk, a good fit for business stays.</p>
+          <ul class="tags"><li>Sleeps 2</li><li>Double bed</li><li>AC</li><li>TV</li><li>Wi-Fi</li></ul>
+        </div>
+        <div class="room-price">
+          <p class="price"><span>₹</span>1,499</p>
+          <p class="per">per night</p>
+          <a class="btn btn-dark" href="#book" data-room="Deluxe AC">Book this room</a>
+        </div>
+      </article>
+
+      <article class="room">
+        <div>
+          <h3>Family room</h3>
+          <p>Two beds and more space, so the whole family can stay together in one room.</p>
+          <ul class="tags"><li>Sleeps 4</li><li>Two beds</li><li>AC</li><li>TV</li><li>Wi-Fi</li></ul>
+        </div>
+        <div class="room-price">
+          <p class="price"><span>₹</span>2,299</p>
+          <p class="per">per night</p>
+          <a class="btn btn-dark" href="#book" data-room="Family room">Book this room</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="inclusions" aria-label="Included with every room">
+    <div><h3>Free Wi-Fi</h3><p>In every room and in the restaurant.</p></div>
+    <div><h3>24-hour check-in</h3><p>Arrive any time, day or night.</p></div>
+    <div><h3>Hot water all day</h3><p>Geyser in every bathroom.</p></div>
+    <div><h3>Parking and backup</h3><p>Space for your car and power backup.</p></div>
+  </section>
+  <section class="dining" id="dining">
+    <div class="dining-in">
+      <div class="dining-text">
+        <h2>A family restaurant, open all day</h2>
+        <p class="dining-lede">Sit in the teal booths under the Rajasthani lake mural and order homely vegetarian food, cooked fresh and served hot.</p>
+        <dl class="menu">
+          <div><dt>Dal bati churma</dt><dd>₹180</dd></div>
+          <div><dt>Gatte ki sabzi</dt><dd>₹160</dd></div>
+          <div><dt>Paneer butter masala</dt><dd>₹220</dd></div>
+          <div><dt>Dal tadka</dt><dd>₹140</dd></div>
+          <div><dt>Veg thali</dt><dd>₹250</dd></div>
+          <div><dt>Butter naan</dt><dd>₹40</dd></div>
+          <div><dt>Masala chai</dt><dd>₹20</dd></div>
+          <div><dt>Sweet lassi</dt><dd>₹60</dd></div>
+        </dl>
+        <p class="hours">Open every day, 7 am to 11 pm.</p>
+        <a class="btn btn-red" href="tel:+910000000000">Call to reserve a table</a>
+      </div>
+      <div class="dining-photos">
+        <img class="dp-big" src="assets/mural-hall.webp" width="1080" height="804" loading="lazy" alt="Dining hall with teal sofas and a painted mural of women by a lake">
+        <img class="dp-small" src="assets/restaurant.webp" width="1080" height="784" loading="lazy" alt="Tables and dark wooden chairs beside a teal sofa">
+      </div>
+    </div>
+  </section>
+
+  <section class="sweets" id="sweets">
+    <div class="sweets-photo">
+      <img src="assets/bakery.webp" width="1080" height="788" loading="lazy" alt="Glass counter filled with fresh sweets, with snack packets on the shelves behind">
+      <div class="sweets-panel">
+        <h2>Fresh sweets at the counter</h2>
+        <p>Pick up sweets, snacks and cakes on your way in or out, packed in boxes for gifting.</p>
+        <dl class="menu menu-ink">
+          <div><dt>Kaju katli</dt><dd>₹900 / kg</dd></div>
+          <div><dt>Motichoor ladoo</dt><dd>₹360 / kg</dd></div>
+          <div><dt>Rasgulla</dt><dd>₹280 / kg</dd></div>
+          <div><dt>Gulab jamun</dt><dd>₹300 / kg</dd></div>
+        </dl>
+        <a class="btn btn-dark" href="#sweets" data-msg="Hello Hotel Soni, I would like to order a sweet box.">Order a sweet box</a>
+      </div>
+    </div>
+  </section>
+  <section class="gallery-sec" id="gallery">
+    <div class="wrap">
+      <h2>Around Hotel Soni</h2>
+      <p class="sec-sub">Tap a photo to see it larger.</p>
+      <div class="gallery"><button type="button" class="g g-a" aria-label="Enlarge photo: Hotel Soni seen from the corner, with its glass side wall"><img src="assets/corner-day.webp" width="1080" height="612" loading="lazy" alt="Hotel Soni seen from the corner, with its glass side wall"></button><button type="button" class="g g-b" aria-label="Enlarge photo: The front of Hotel Soni lit up at night"><img src="assets/hero-night.webp" width="1080" height="680" loading="lazy" alt="The front of Hotel Soni lit up at night"></button><button type="button" class="g g-c" aria-label="Enlarge photo: Teal sofa and dark wooden chairs in the restaurant"><img src="assets/restaurant.webp" width="1080" height="784" loading="lazy" alt="Teal sofa and dark wooden chairs in the restaurant"></button><button type="button" class="g g-d" aria-label="Enlarge photo: Dining hall with a painted lake mural"><img src="assets/mural-hall.webp" width="1080" height="804" loading="lazy" alt="Dining hall with a painted lake mural"></button><button type="button" class="g g-e" aria-label="Enlarge photo: Sweets and snacks shop with wooden shelves"><img src="assets/shop.webp" width="1080" height="785" loading="lazy" alt="Sweets and snacks shop with wooden shelves"></button><button type="button" class="g g-f" aria-label="Enlarge photo: Main entrance with the white jaali panel"><img src="assets/front-day.webp" width="1080" height="672" loading="lazy" alt="Main entrance with the white jaali panel"></button><button type="button" class="g g-g" aria-label="Enlarge photo: Glass counter with fresh sweets"><img src="assets/bakery.webp" width="1080" height="788" loading="lazy" alt="Glass counter with fresh sweets"></button></div>
+    </div>
+  </section>
+
+  <section class="reviews" aria-labelledby="rev-h">
+    <div class="wrap">
+      <h2 id="rev-h">What guests say</h2>
+      <div class="rev-grid">
+        <figure class="quote-main">
+          <blockquote>We stopped on a long drive and stayed the night. The room was clean and quiet, and the dal bati at dinner was the best part.</blockquote>
+          <figcaption>Rahul M., Jaipur</figcaption>
+        </figure>
+        <div class="quote-side">
+          <figure><blockquote>Bought a box of kaju katli at the counter for the family. Fresh, and fairly priced.</blockquote><figcaption>Priya S., Kota</figcaption></figure>
+          <figure><blockquote>We reached at 11 pm and check-in took five minutes. The staff were helpful.</blockquote><figcaption>Anil K., Delhi</figcaption></figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="loc" id="location">
+    <div class="wrap loc-grid">
+      <div>
+        <h2>Find Hotel Soni</h2>
+        <dl class="facts">
+          <div><dt>Address</dt><dd>Soni Hotel, Rajoli, Rajasthan 303503</dd></div>
+          <div><dt>Plus code</dt><dd>G8WR+C9X</dd></div>
+          <div><dt>Reception</dt><dd>Open 24 hours</dd></div>
+          <div><dt>Phone</dt><dd><a href="tel:+910000000000">+91 00000 00000</a></dd></div>
+        </dl>
+        <div class="loc-cta">
+          <a class="btn btn-red" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=G8WR%2BC9X%20Rajoli%20Rajasthan">Get directions</a>
+          <a class="btn btn-dark" target="_blank" rel="noopener" href="https://maps.app.goo.gl/7h95rc86QnjeKhJA6">Open in Google Maps</a>
+        </div>
+      </div>
+      <div class="map" id="map">
+        <div class="map-ph">
+          <svg viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path fill="#e3283e" d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>
+          <p>Soni Hotel, Rajoli</p>
+          <button class="btn btn-red" type="button" id="showMap">Show map</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div>
+      <a class="brand" href="#top"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="none" stroke="#e3283e" stroke-width="1.5"/><g transform="translate(20 20)" fill="#e3283e" fill-opacity=".22" stroke="#f5efe3" stroke-width="1.2"><ellipse cx="0" cy="-8" rx="3.6" ry="7" transform="rotate(0)"/><ellipse cx="0" cy="-8" rx="3.6" ry="7" transform="rotate(45)"/><ellipse cx="0" cy="-8" rx="3.6" ry="7" transform="rotate(90)"/><ellipse cx="0" cy="-8" rx="3.6" ry="7" transform="rotate(135)"/><ellipse cx="0" cy="-8" rx="3.6" ry="7" transform="rotate(180)"/><ellipse cx="0" cy="-8" rx="3.6" ry="7" transform="rotate(225)"/><ellipse cx="0" cy="-8" rx="3.6" ry="7" transform="rotate(270)"/><ellipse cx="0" cy="-8" rx="3.6" ry="7" transform="rotate(315)"/></g><circle cx="20" cy="20" r="2.6" fill="#e3283e"/></svg>Hotel Soni</a>
+      <p class="foot-note">Rooms, a family restaurant and a sweets counter in Rajoli, Rajasthan.</p>
+    </div>
+    <div><h3>Visit</h3><p>Soni Hotel<br>Rajoli, Rajasthan 303503</p></div>
+    <div><h3>Contact</h3><p><a href="tel:+910000000000">+91 00000 00000</a><br><a href="#" data-msg="Hello Hotel Soni, I would like to ask about a stay.">Message on WhatsApp</a></p></div>
+  </div>
+  <p class="wrap legal">© 2026 Hotel Soni, Rajoli. All rights reserved.</p>
+</footer>
+
+<nav class="dock" aria-label="Quick actions">
+  <a href="tel:+910000000000">Call</a>
+  <a href="#" data-msg="Hello Hotel Soni, I would like to ask about a stay.">WhatsApp</a>
+  <a class="dock-book" href="#rooms">Book</a>
+</nav>
+
+<dialog id="lightbox" aria-label="Photo viewer">
+  <figure><img alt=""><figcaption></figcaption></figure>
+  <button class="lb-btn lb-close" type="button" aria-label="Close">&times;</button>
+  <button class="lb-btn lb-prev" type="button" aria-label="Previous photo">&#8249;</button>
+  <button class="lb-btn lb-next" type="button" aria-label="Next photo">&#8250;</button>
+</dialog>
+<script src="js/main.js"></script>
+</body>
+</html>
